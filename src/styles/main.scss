@@ -1,0 +1,47 @@
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #C98A40;
+}
+
+.tasty-pastries {
+
+    background-image: url(../img/Beans_img.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+
+    &__title {
+        padding-top: 194px;
+        color: #FFF;
+        font-family: Sen-extrabold;
+        font-size: 74px;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__discription {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        color: #FFF;
+        font-family: Poppins-regular-fat;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    &__button {
+        width: 194px;
+        height: 60px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        border-style: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins-bold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 24px;
+        background: #FDBA10;
+    }
+}

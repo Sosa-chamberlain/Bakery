@@ -8,10 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bakery</title>
 
-    <link rel="stylesheet" href="./styles/reset.scss" />
+    <link rel="stylesheet" href="reset.scss" />
     <link rel="stylesheet" href="./styles/grid.scss" />
     <link rel="stylesheet" href="./styles/global.scss" />
     <link rel="stylesheet" href="./styles/header.scss" />
+    <link rel="stylesheet" href="./styles/main.scss" />
     <link rel="stylesheet" href="./styles/footer.scss" />
 </head>
 
@@ -23,7 +24,16 @@
         </div>
     </header>
 
-    <section>Tasty pastries</section>
+    <main class="main-content">
+
+    <section class="main-content__tasty-pastries tasty-pastries">
+        <h1 class="tasty-pastries__title">Tasty pastries</h1>
+        <p class="tasty-pastries__discription">Lorem Ipsum is simply dummy text of the printing and<br>
+            typesetting industry. Lorem Ipsum has been the industry's<br>
+            standard dummy text ever since the</p>
+        <button class="tasty-pastries__button">SEE MORE</button>
+        <div class="tasty-pastries__img"></div>
+    </section>
 
     <section>How we work</section>
 
@@ -34,6 +44,7 @@
     <section>Testymonials</section>
 
     <section>Contact us</section>
+</main>
 
     <footer>Footer</footer>
 
