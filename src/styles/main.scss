@@ -1,42 +1,29 @@
 .tasty-pastries {
 
     background-image: url(../img/Beans_img.png);
-    background-position: center right;
+    background-position: right;
     background-repeat: no-repeat;
-
-    
 
     &__title {
         padding-top: 194px;
-        color: #FFF;
-        font-family: Sen-extrabold;
-        font-size: 74px;
-        line-height: normal;
-        text-transform: uppercase;
     }
 
     &__discription {
         padding-top: 20px;
         padding-bottom: 40px;
-        color: #FFF;
-        font-family: Poppins-regular-fat;
-        font-size: 18px;
-        line-height: 26px;
     }
+}
 
-    &__button {
-        width: 194px;
-        height: 60px;
-        flex-shrink: 0;
-        border-radius: 30px;
-        border-style: none;
-        color: #FFF;
-        text-align: center;
-        font-family: Poppins-bold;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 24px;
-        background: #FDBA10;
+.contacts {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    &__socials {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
     }
 }
