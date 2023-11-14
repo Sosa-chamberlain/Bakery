@@ -1,46 +1,39 @@
 html,
 body {
+  background-color: #C98A40;
+  
 
   @font-face {
     font-family: Poppins-regular;
-    src: url(../fonts/Poppins/Poppins-Regular.woff) format('woff'),
-      url(../fonts/Poppins/Poppins-Regular.ttf) format('truetype'),
-      url(../fonts/Poppins/Poppins-Regular.eot) format('embedded-opentype');
+    src: url(../fonts/Poppins/Poppins-Regular.woff) format('woff');
     font-style: normal;
     font-weight: 400;
   }
 
   @font-face {
     font-family: Poppins-regular-fat;
-    src: url(../fonts/Poppins/Poppins-Regular.woff) format('woff'),
-      url(../fonts/Poppins/Poppins-Regular.ttf) format('truetype'),
-      url(../fonts/Poppins/Poppins-Regular.eot) format('embedded-opentype');
+    src: url(../fonts/Poppins/Poppins-Regular.woff) format('woff');
     font-style: normal;
     font-weight: 600;
   }
 
   @font-face {
     font-family: Poppins-bold;
-    src: url(../fonts/Poppins/Poppins-Bold.woff) format('woff'),
-      url(../fonts/Poppins/Poppins-Bold.ttf) format('truetype'),
-      url(../fonts/Poppins/Poppins-Bold.eot) format('embedded-opentype');
+    src: url(../fonts/Poppins/Poppins-Bold.woff) format('woff');
     font-style: normal;
     font-weight: 600;
   }
 
   @font-face {
     font-family: Sen-regular;
-    src: url(../fonts/Sen-Font/Sen-Regular.woff) format('woff'),
-      url(../fonts/Sen-Font/Sen-Regular.ttf) format('truetype'),
-      url(../fonts/Sen-Font/Sen-Regular.eot) format('embedded-opentype');
+    src: url(../fonts/Sen-Font/Sen-Regular.woff) format('woff');
     font-style: normal;
     font-weight: 600;
   }
 
   @font-face {
     font-family: Sen-bold;
-    src: url(../fonts/Sen-Font/Sen-Bold.ttf) format('embedded-opentype'),
-      url(../fonts/Sen-Font/Sen-Bold.woff) format('woff'),
+    src: url(../fonts/Sen-Font/Sen-Bold.woff) format('woff'),
       url(../fonts/Sen-Font/Sen-Bold.woff2) format('woff2');
     font-style: normal;
     font-weight: 800;
@@ -48,8 +41,7 @@ body {
 
   @font-face {
     font-family: Sen-extrabold;
-    src: url(../fonts/Sen-Font/Sen-ExtraBold.eot) format('embedded-opentype'),
-      url(../fonts/Sen-Font/Sen-ExtraBold.woff) format('woff'),
+    src: url(../fonts/Sen-Font/Sen-ExtraBold.woff) format('woff'),
       url(../fonts/Sen-Font/Sen-ExtraBold.woff2) format('woff2');
     font-style: normal;
     font-weight: 800;

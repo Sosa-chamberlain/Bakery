@@ -1,15 +1,10 @@
-.main-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #C98A40;
-}
-
 .tasty-pastries {
 
     background-image: url(../img/Beans_img.png);
-    background-repeat: no-repeat;
     background-position: center right;
-    background-size: contain;
+    background-repeat: no-repeat;
+
+    
 
     &__title {
         padding-top: 194px;
