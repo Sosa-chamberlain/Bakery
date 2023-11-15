@@ -15,14 +15,8 @@
 
 .contacts {
     padding-top: 200px;
+    padding-bottom: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
-
-
-    &__socials {
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-    }
 }
