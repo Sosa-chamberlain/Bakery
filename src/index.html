@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/global.scss" />
     <link rel="stylesheet" href="./styles/header.scss" />
     <link rel="stylesheet" href="./styles/tasty-pastries.scss" />
+    <link rel="stylesheet" href="./styles/how-we-work.scss" />
     <link rel="stylesheet" href="./styles/typography.scss" />
     <link rel="stylesheet" href="./styles/button.scss" />
     <link rel="stylesheet" href="./styles/footer.scss" />
@@ -26,41 +27,49 @@
         </div>
     </header>
 
-    <main>
+    <section class="tasty-pastries grid">
+        <h1 class="tasty-pastries__title title-primary title-primary--small">Tasty pastries</h1>
+        <p class="tasty-pastries__description description">Lorem Ipsum is simply dummy text of the printing and<br>
+            typesetting industry. Lorem Ipsum has been the industry's<br>
+            standard dummy text ever since the</p>
+        <button class="tasty-pastries button">SEE MORE</button>
+        <ul class="contacts">
+            <li class="contacts__item">
+                <a href="#"><img src="./img/vk-logo.svg" alt="vk-logo"></a>
+            </li>
+            <li class="contacts__item">
+                <a href="#"><img src="./img/facebook-logo.svg" alt="facebook-logo"></a>
+            </li>
+            <li class="contacts__item">
+                <a href="#"><img src="./img/instagram-logo.svg" alt="instagram-logo"></a>
+            </li>
+            <li class="contacts__item">
+                <a href="#"><img src="./img/twitter-logo.svg" alt="twitter-logo"></a>
+            </li>
+        </ul>
+        <a class="description tel" href="tel:+7 700 000 00 00">+7 700 000 00 00</a>
+    </section>
 
-        <section class="tasty-pastries grid">
-            <h1 class="tasty-pastries__title title-primary title-primary--small">Tasty pastries</h1>
-            <p class="tasty-pastries__description description">Lorem Ipsum is simply dummy text of the printing and<br>
-                typesetting industry. Lorem Ipsum has been the industry's<br>
-                standard dummy text ever since the</p>
-            <button class="tasty-pastries button">SEE MORE</button>
-                <ul class="contacts">
-                    <li class="contacts__item">
-                        <a href="#"><img src="./img/vk-logo.svg" alt="vk-logo"></a>
-                    </li>
-                    <li class="contacts__item">
-                        <a href="#"><img src="./img/facebook-logo.svg" alt="facebook-logo"></a>
-                    </li>
-                    <li class="contacts__item">
-                        <a href="#"><img src="./img/instagram-logo.svg" alt="instagram-logo"></a>
-                    </li>
-                    <li class="contacts__item">
-                        <a href="#"><img src="./img/twitter-logo.svg" alt="twitter-logo"></a>
-                    </li>
-                </ul>
-                <a class="description tel" href="tel:+7 700 000 00 00">+7 700 000 00 00</a>  
-        </section>
+    <section class="how-we-work grid">
+        <p class="how-we-work description description--absolute">Lorem Ipsum is simply<br>dummy text of the printing<br>and typesetting
+            industry.<br>Lorem Ipsum has been the<br>industry's standard dummy<br>text ever since the</p>
+        <h1 class="how-we-work title-primary title-primary--right">How we<br>work</h1>
+        <ul class="product-examples">
+            <li class="product-examples__container"><img src="./img/how-we-work-img-1.png" alt="how-we-work-img-1"></li>
+            <li class="product-examples__container"><img src="./img/how-we-work-img-2.png" alt="how-we-work-img-2"></li>
+            <li class="product-examples__container"><img src="./img/how-we-work-img-3.png" alt="how-we-work-img-3"></li>
+            <li class="product-examples__container"><img src="./img/how-we-work-img-4.png" alt="how-we-work-img-4"></li>
+        </ul>
+        <button class="button button--center">CONTACT US</button>
+    </section>
 
-        <section>How we work</section>
+    <section>About us</section>
 
-        <section>About us</section>
+    <section>Services</section>
 
-        <section>Services</section>
+    <section>Testymonials</section>
 
-        <section>Testymonials</section>
-
-        <section>Contact us</section>
-    </main>
+    <section>Contact us</section>
 
     <footer>Footer</footer>
 

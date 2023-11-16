@@ -12,4 +12,9 @@
     font-weight: 900;
     line-height: 24px;
     background: #FDBA10;
+
+    &--center {
+        margin: 0 auto;
+        display: block;
+    }
 }
