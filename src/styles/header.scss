@@ -1,19 +1,14 @@
-@font-face {
-  font-family: Sen;
-  src: url(../fonts/Sen-Font/Sen-Bold.woff);
-}
-
 .header {
+  max-width: 1200px;
+  margin: 0 auto;
   background: #C98A40;
+  padding-top: 34px;
 
   &__container {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding-top: 34px;
     gap: 16px;
   }
-
 
   &__logo {
     width: 53px;
@@ -23,7 +18,7 @@
 
   &__title {
     color: #FFF;
-    font-family: Sen;
+    font-family: Sen-bold;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;

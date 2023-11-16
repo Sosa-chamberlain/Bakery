@@ -1,7 +1,49 @@
 html,
 body {
-    @font-face {
-        font-family: Sen;
-        src: url(../fonts/Sen-Font/Sen-Bold.woff);
-      }
+  background-color: #C98A40;
+  
+
+  @font-face {
+    font-family: Poppins-regular;
+    src: url(../fonts/Poppins/Poppins-Regular.woff) format('woff');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: Poppins-regular-fat;
+    src: url(../fonts/Poppins/Poppins-Regular.woff) format('woff');
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: Poppins-bold;
+    src: url(../fonts/Poppins/Poppins-Bold.woff) format('woff');
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: Sen-regular;
+    src: url(../fonts/Sen-Font/Sen-Regular.woff) format('woff');
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: Sen-bold;
+    src: url(../fonts/Sen-Font/Sen-Bold.woff) format('woff'),
+      url(../fonts/Sen-Font/Sen-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: Sen-extrabold;
+    src: url(../fonts/Sen-Font/Sen-ExtraBold.woff) format('woff'),
+      url(../fonts/Sen-Font/Sen-ExtraBold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 800;
+  }
 }

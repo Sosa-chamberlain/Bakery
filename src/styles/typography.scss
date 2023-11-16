@@ -1,0 +1,46 @@
+.title-primary {
+    color: #FFF;
+    font-family: Sen-extrabold;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96%;
+    text-transform: uppercase;
+
+    &--small {
+        font-size: 74px;
+    }
+
+    &--inverse {
+        color: #C98A40;
+    }
+}
+
+.title-secondary {
+    color: #FFF;
+    font-family: Poppins-bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.description {
+    color: #FFF;
+    font-family: Poppins-regular-fat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+
+    &--small {
+        font-family: Poppins-regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    &--inverse {
+        color: #C98A40;
+    }
+}

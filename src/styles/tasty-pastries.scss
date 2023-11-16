@@ -1,0 +1,26 @@
+.tasty-pastries {
+    background-image: url(../img/Beans_img.png);
+    background-position: right;
+    background-repeat: no-repeat;
+
+    &__title {
+        padding-top: 194px;
+    }
+
+    &__description {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+.contacts {
+    padding-top: 200px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tel {
+    text-decoration: none;
+}

@@ -8,10 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bakery</title>
 
-    <link rel="stylesheet" href="./styles/reset.scss" />
+    <link rel="stylesheet" href="reset.scss" />
     <link rel="stylesheet" href="./styles/grid.scss" />
     <link rel="stylesheet" href="./styles/global.scss" />
     <link rel="stylesheet" href="./styles/header.scss" />
+    <link rel="stylesheet" href="./styles/tasty-pastries.scss" />
+    <link rel="stylesheet" href="./styles/typography.scss" />
+    <link rel="stylesheet" href="./styles/button.scss" />
     <link rel="stylesheet" href="./styles/footer.scss" />
 </head>
 
@@ -23,17 +26,41 @@
         </div>
     </header>
 
-    <section>Tasty pastries</section>
+    <main>
 
-    <section>How we work</section>
+        <section class="tasty-pastries grid">
+            <h1 class="tasty-pastries__title title-primary title-primary--small">Tasty pastries</h1>
+            <p class="tasty-pastries__description description">Lorem Ipsum is simply dummy text of the printing and<br>
+                typesetting industry. Lorem Ipsum has been the industry's<br>
+                standard dummy text ever since the</p>
+            <button class="tasty-pastries button">SEE MORE</button>
+                <ul class="contacts">
+                    <li class="contacts__item">
+                        <a href="#"><img src="./img/vk-logo.svg" alt="vk-logo"></a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#"><img src="./img/facebook-logo.svg" alt="facebook-logo"></a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#"><img src="./img/instagram-logo.svg" alt="instagram-logo"></a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="#"><img src="./img/twitter-logo.svg" alt="twitter-logo"></a>
+                    </li>
+                </ul>
+                <a class="description tel" href="tel:+7 700 000 00 00">+7 700 000 00 00</a>  
+        </section>
 
-    <section>About us</section>
+        <section>How we work</section>
 
-    <section>Services</section>
+        <section>About us</section>
 
-    <section>Testymonials</section>
+        <section>Services</section>
 
-    <section>Contact us</section>
+        <section>Testymonials</section>
+
+        <section>Contact us</section>
+    </main>
 
     <footer>Footer</footer>
 
