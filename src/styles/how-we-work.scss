@@ -1,10 +1,18 @@
 .how-we-work {
     padding-top: 70px;
-}
 
-.product-examples {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    gap: 20px;
+    &__text {
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__list {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 }
