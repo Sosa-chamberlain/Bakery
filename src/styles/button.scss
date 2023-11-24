@@ -1,15 +1,25 @@
 .button {
     width: 194px;
     height: 60px;
-    flex-shrink: 0;
     border-radius: 30px;
     border-style: none;
     color: #FFF;
     text-align: center;
     font-family: Poppins-bold;
     font-size: 18px;
-    font-style: normal;
     font-weight: 900;
     line-height: 24px;
     background: #FDBA10;
+    display: block;
+    cursor: pointer;
+    opacity: 70%;
+
+    &--center {
+        margin: 0 auto;
+    }
+}
+
+.button:hover {
+    opacity: 100%;
+    transition-duration: 1s;
 }

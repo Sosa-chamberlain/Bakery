@@ -1,0 +1,22 @@
+.how-we-work {
+    padding-top: 70px;
+
+    &__text-container {
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__list {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &__title {
+        text-align: right;
+    }
+}
