@@ -1,0 +1,14 @@
+.about-us {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-container {
+
+    &__description {
+        padding-top: 50px;
+        padding-bottom: 42px;
+    }
+}
