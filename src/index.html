@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/tasty-pastries.scss" />
     <link rel="stylesheet" href="./styles/how-we-work.scss" />
     <link rel="stylesheet" href="./styles/about-us.scss" />
+    <link rel="stylesheet" href="./styles/services.scss" />
     <link rel="stylesheet" href="./styles/typography.scss" />
     <link rel="stylesheet" href="./styles/button.scss" />
     <link rel="stylesheet" href="./styles/footer.scss" />
@@ -86,14 +87,58 @@
                 remaining essentially<br> unchanged. It was popularised in the 1960s with the<br> release of Letraset
                 sheets containing Lorem Ipsum<br> passages, and more recently with desktop publishing<br> software like
                 Aldus PageMaker including versions of<br> Lorem Ipsum.</p>
-            
-                <button class="button">CONTACT US</button>
+
+            <button class="button">CONTACT US</button>
         </div>
 
         <img class="about-us__img" src="./img/Coker.png" alt="about-us-img">
     </section>
 
-    <section>Services</section>
+    <section class="services">
+
+        <div class="services__content grid">
+            <!--костыль лютый (искал другое решение как изменить бэкграунд на белый, но увы)-->
+
+            <h1 class="services__title title-primary title-primary--inverse">Services</h1>
+
+            <ul class="services__list">
+                <li class="services__card">
+                    <div class="services__content-container content-container">
+                        <img src="./img/services-img-1.png" alt="services-img-1">
+                        <div class="content-container__text">
+                        <h2 class="title-secondary title-secondary--inverse">Lorem Ipsum</h2>
+                        <p class="description description--small description--inverse">Lorem Ipsum is simply dummy text of the<br> printing and
+                            typesetting industry. Lorem<br> Ipsum has been the industry's standard<br> dummy text ever since the
+                            1500s, when an<br> unknown printer took a galley of type and<br> scrambled</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="services__card">
+                    <div class="services__content-container content-container">
+                        <img src="./img/services-img-2.png" alt="services-img-1">
+                        <div class="content-container__text">
+                        <h2 class="title-secondary title-secondary--inverse">Lorem Ipsum</h2>
+                        <p class="description description--small description--inverse">Lorem Ipsum is simply dummy text of the<br> printing and
+                            typesetting industry. Lorem<br> Ipsum has been the industry's standard<br> dummy text ever since the
+                            1500s, when an<br> unknown printer took a galley of type and<br> scrambled</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="services__card">
+                    <div class="services__content-container content-container">
+                        <img src="./img/services-img-3.png" alt="services-img-1">
+                        <div class="content-container__text">
+                        <h2 class="title-secondary title-secondary--inverse">Lorem Ipsum</h2>
+                        <p class="description description--small description--inverse">Lorem Ipsum is simply dummy text of the<br> printing and
+                            typesetting industry. Lorem<br> Ipsum has been the industry's standard<br> dummy text ever since the
+                            1500s, when an<br> unknown printer took a galley of type and<br> scrambled</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="services__button button button--center">CONTACT US</button>
+        </div>
+    </section>
 
     <section>Testymonials</section>
 

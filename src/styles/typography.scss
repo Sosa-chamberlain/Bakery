@@ -23,6 +23,10 @@
     font-style: normal;
     font-weight: 900;
     line-height: 24px;
+
+    &--inverse {
+        color: #C98A40;
+    }
 }
 
 .description {
@@ -41,6 +45,6 @@
     }
 
     &--inverse {
-        color: #C98A40;
+        color: black;
     }
 }
