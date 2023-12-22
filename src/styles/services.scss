@@ -14,22 +14,3 @@
         padding-bottom: 50px;
     }
 }
-
-.content-container {
-    width: 385px;
-    height: 504px;
-    border-radius: 30px;
-    border: 1px solid #FFD8AB;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    &__text {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding-top: 30px;
-        padding-bottom: 30px; 
-    }
-}
