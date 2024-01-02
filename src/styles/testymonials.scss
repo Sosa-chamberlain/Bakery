@@ -1,0 +1,16 @@
+.testymonials {
+    padding-top: 86px;
+
+    &__title {
+        padding-bottom: 80px;
+    }
+    
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+}
