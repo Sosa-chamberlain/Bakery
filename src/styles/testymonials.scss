@@ -3,6 +3,7 @@
 
     &__title {
         padding-bottom: 80px;
+        text-align: center;
     }
     
     &__list {
@@ -12,5 +13,9 @@
         justify-content: center;
         gap: 50px;
         padding-bottom: 50px;
+    }
+
+    &__card {
+        max-width: 500px;
     }
 }
