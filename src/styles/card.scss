@@ -1,9 +1,11 @@
 .card {
+    width: 385px;
     border-radius: 30px;
     border: 1px solid #FFD8AB;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+
+    &--size-l {
+        width: 512px;
+    }
 
     &__text {
         margin: 0 auto;
@@ -11,6 +13,10 @@
         flex-direction: column;
         gap: 10px;
         padding: 30px;
+    }
+
+    &__title {
+        padding-bottom: 10px;
     }
 
     &__img {
