@@ -1,0 +1,21 @@
+.testymonials {
+    padding-top: 86px;
+
+    &__title {
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+
+    &__card {
+        max-width: 500px;
+    }
+}

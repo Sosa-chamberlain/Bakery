@@ -8,6 +8,10 @@
     }
 
     &__text {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         padding: 30px;
     }
 
@@ -18,9 +22,13 @@
     &__img {
         overflow: hidden;
     }
-}
 
-.card--size-l .card__text {
-    padding-left: 50px;
-    padding-right: 50px;
+    &__rating {
+        color: #C98A40;
+    }
+
+    &--rating {
+        background-color: white;
+        border: none;
+    }
 }
