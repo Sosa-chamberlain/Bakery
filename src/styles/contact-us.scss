@@ -1,0 +1,60 @@
+.contact-us {
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 30px;
+
+    &__title {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 250px;
+    }
+
+    &__input {
+        border-radius: 30px;
+        height: 60px;
+        width: 390px;
+        background-color: #FDBA10;
+        border-style: none;
+    }
+
+    &__button {
+        border: 3px solid #C98A40 !important;
+        background-color: white !important;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    &__description {
+        text-decoration: none;
+    }
+
+    &__image {
+        height: 20px;
+        object-fit: contain;
+        padding-right: 15px;
+    }
+
+    &__button {
+        margin-top: 15px;
+        margin-left: 300px;
+    }
+}
